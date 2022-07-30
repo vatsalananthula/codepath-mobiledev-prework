@@ -1,7 +1,7 @@
 ## HelloWorld App
 
 ### App Description
-`TODO://` A basic app that can display inputted text, change text color, and change the background color with the click of a button.
+`TODO://` A basic app that can display inputted text, change text color, change background color, and reset to default settings.
 
 <img src="http://g.recordit.co/fwEl3JlCEg.gif" width=200><br>
 
