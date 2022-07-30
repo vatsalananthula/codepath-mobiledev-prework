@@ -38,9 +38,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
     }
     
-    //reset to default color settings upon clicking the background
+    //reset to default settings upon clicking the background
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.backgroundColor = .blue
+        textView.text = "Hello World"
     }
     
     //display mainField text onto the textView
