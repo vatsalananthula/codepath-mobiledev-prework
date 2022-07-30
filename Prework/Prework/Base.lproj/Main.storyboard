@@ -46,7 +46,7 @@
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="EnterTextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9R3-Mu-KDI"/>
+                                    <action selector="EnterTextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b14-N0-FdK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Svd-vi-7NU">
@@ -63,7 +63,7 @@
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lJR-ej-5zo"/>
+                                    <action selector="changeBackground:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gv3-ed-o1c"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pg0-jW-haz">
@@ -94,8 +94,8 @@
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                     </view>
                     <connections>
-                        <outlet property="mainField" destination="JKP-0D-SAd" id="hOM-ao-BRf"/>
-                        <outlet property="textView" destination="sOB-Hn-o5d" id="8f0-ta-ibh"/>
+                        <outlet property="mainField" destination="JKP-0D-SAd" id="4zf-7I-ehz"/>
+                        <outlet property="textView" destination="sOB-Hn-o5d" id="R4j-A0-oQI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

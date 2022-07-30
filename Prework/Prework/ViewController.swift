@@ -31,12 +31,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
     //change background upon every click
     @IBAction func changeBackground(_ sender: Any) {
         changeBackground = !changeBackground
-        if changeBackground {
-            view.backgroundColor = .blue
-        }
-        else {
+        if changeBackground{
             view.backgroundColor = .red
         }
+        
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.backgroundColor = .blue
     }
     
     @IBAction func EnterTextButton(_ sender: Any) {
